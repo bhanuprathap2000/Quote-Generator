@@ -28,7 +28,7 @@ function removeLoadSpinner(){
 async function getQuote(){
     showLoadSpinner();
     // To get around the cors error we are using this proxyUrl 
-    const proxyUrl="https://mycorsproxy-tu.herokuapp.com/";
+    const proxyUrl="https://mycorsproxy-bhanuk2022.herokuapp.com/";
      const apiUrl="https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json";
     
     try {
